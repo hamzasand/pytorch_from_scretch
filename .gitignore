@@ -1,0 +1,65 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+pyenv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML model files
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+
+# Data (optional - remove if you want to track datasets)
+data/
+datasets/
+
+# Outputs
+outputs/
+results/
+predictions/
+
+# Cache
+.cache/
+*.cache
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Temp files
+*.tmp
+*.swp
+
+# Images (optional)
+*.png
+*.jpg
+*.jpeg
+
+# TensorBoard
+runs/
+logs/
